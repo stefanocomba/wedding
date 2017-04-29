@@ -1,0 +1,22 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] CLI Version:  3.6.1
+[debug] Platform:     darwin
+[debug] Node Version: v4.2.0
+[debug] Time:         Sat Apr 29 2017 20:37:31 GMT+0200 (CEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/wedding-stefanocomba  
+ Sat Apr 29 2017 20:37:31 GMT+0200 (CEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/wedding-stefanocomba/tokens  
+ Sat Apr 29 2017 20:37:35 GMT+0200 (CEST)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'wedding-stefanocomba'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/wedding-stefanocomba/uploads/-Kiv-FDnr1Sca9dpAm3V?fileCount=145&message=  
+ Sat Apr 29 2017 20:37:38 GMT+0200 (CEST)
